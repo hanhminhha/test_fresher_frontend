@@ -1,0 +1,60 @@
+.content{
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    .new-task{
+      width: 40%;
+      border-right: 1px solid ;
+      padding:20px 45px
+    }
+    .list-task{
+      width: 60%;
+      padding:20px 45px;
+      position: relative;
+
+      .content-list-task{
+        margin-top: 30px;
+      }
+    }
+    .title-header{
+      text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px;
+    }
+    .button{
+      padding:10px;
+      background-color: #83CA64;
+      border:none;
+      width: 100%;
+      border-radius: 5px;
+      margin-top: 30px;
+      color:#ffffff;
+      cursor: pointer;
+      &:hover{
+        background-color: #2E3D2F;
+        
+      }
+    }
+  }
+  .input-title{
+    border:1px solid #D3C8C5;
+    padding:10px;
+    display: block;
+    width: -webkit-fill-available;
+    border-radius: 4px;
+}
+.delete-many-task{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #A9B1B8;
+  .list-task-item{
+    padding:14px 10px;
+    button{
+      padding:10px 30px
+    }
+  }
+}

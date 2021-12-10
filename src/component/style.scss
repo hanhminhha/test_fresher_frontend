@@ -1,0 +1,78 @@
+.detail-task{
+    .margin{
+        margin-bottom: 30px;
+        .flex{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          width: 100%;
+        }
+        h5{
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+        .input-title{
+            border:1px solid #D3C8C5;
+            padding:10px;
+            display: block;
+            width: -webkit-fill-available;
+        }
+        .input-desciption{
+            width: -webkit-fill-available;
+            padding:10px;
+            height: 150px;
+        }
+        .select-piority{
+            width:100%;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            font-size: 14px;
+            height: 40px;
+            border: 1px solid;
+            padding-left: 15px;
+            option{
+                padding-bottom: 5px;
+                margin-bottom: 5px;
+            }
+        }
+        select::-ms-expand {
+            display: none;
+            
+        }
+    }
+}
+.list-task-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border:1px solid;
+    padding:5px 10px;
+    button{
+        padding:6px 30px;
+        color:#ffffff;
+        border:none;
+        border-radius:4px;
+        cursor: pointer;
+    }
+    .detail-button{
+        margin-right: 10px;
+        button{
+            background-color: #5DADE2;
+        }
+    }
+    .remove-button{
+        button{
+            background-color: #D11333 ;
+        }
+    }
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.error-text{
+    color:#D11333 ;
+    font-style: 13px;
+    font-style: italic;
+    margin: 5px 0 0 0;
+}
